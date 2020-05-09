@@ -1,0 +1,13 @@
+T=int(input())
+while(T>0):
+    S=str(input())
+    P = S[-1:] + S[:-1] 
+    Q= S[+1:]+ S[:+1]
+    if(P==Q):
+        print("YES")
+    else:
+        print("NO")
+    T=T-1    
+        
+            
+    
